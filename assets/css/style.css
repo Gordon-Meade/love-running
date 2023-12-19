@@ -1,3 +1,10 @@
+/* Google fonts import */
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Rubik+Doodle+Shadow&display=swap');
+
+
+
+
+
 /*Asterix wildward to override default styles added by browser*/
 * {
     padding: 0;
@@ -12,7 +19,8 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles*/
-    color: #3a3a3a
+    color: #3a3a3a;
+    font-family: 'lato', sans-serif;
 }
 
 /* Header */
