@@ -1,17 +1,12 @@
 /* Google fonts import */
  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Rubik+Doodle+Shadow&display=swap');
 
-
-
-
-
 /*Asterix wildward to override default styles added by browser*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
 
 /* General Styles */
 body {
@@ -31,6 +26,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -74,7 +72,21 @@ nav {
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
-    display: none;    
+    display: none;  
+    top: 100%;  
+}
+
+/*Nav Toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 
